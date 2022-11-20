@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    background-color: black;
+    color: gold;
+    height: 100vh;
+    text-align: center;
+    padding-top: 50px;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+img{
+    cursor: pointer;
+}
+button {
+    padding: .5rem 1rem;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 20px 10px;
+    background-color: gold;
+    color: #000;
+    outline: none;
+    border: none;
+}
+#nova-lampada {
+    display: none;
+}
