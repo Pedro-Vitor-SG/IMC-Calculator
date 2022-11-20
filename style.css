@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: verdana, sans-serif;
+}
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator {
+    width: 345px;
+    background-color: gold;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px #ccc;
+    padding: 30px 0 20px;
+}
+.title {
+    text-align: center;
+    border-bottom: 3px solid ;
+    font-size: 28px;
+}
+.people-info {
+    margin: 40px 0 20px;
+    padding: 0 40px;
+}
+.people-info fieldset {
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.people-info label {
+    font-size: 18px;
+}
+.people-info input {
+    width: 150px;
+    padding: .5rem .8rem;
+    outline: none;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.people-info button{
+    font-size: 18px;
+    background-color: black;
+    color: gold;
+    border-radius: 5px;
+    padding: .5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    transition: .2s;
+}
+.people-info button:hover{
+    color: rgb(205, 180, 0);
+}
+.container-details {
+    background-color: black;
+    color: gold;
+    font-style: italic;
+    margin:  0 40px;
+    padding: 40px 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #555;
+}
