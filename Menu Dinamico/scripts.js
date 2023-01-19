@@ -1,12 +1,3 @@
-// let images = [
-//   "imgs/sasuke.jpg",
-//   "imgs/Naruto.webp",
-//   "imgs/obito.jpg",
-//   "imgs/kakashi.jpg",
-// ];
-// let index = 0;
-
-// console.log(images);
 const menus = [
   {
     title: "Home",
@@ -48,6 +39,7 @@ menus.forEach((menu, index) => {
   console.log(menu, index);
   //Criando o li de primeiro nivel
   const liMain = document.createElement("li");
+  liMain.classList.add("li-main")
   //Criando tag a que fica dentro do li de primeiro nivel
   const tagA = document.createElement("a");
 
@@ -64,6 +56,7 @@ menus.forEach((menu, index) => {
   if (Array.isArray(menu.submenu)) {
     //Criando ul para submenu
     const ulSubmenu = document.createElement("ul");
+    ulSubmenu.classList.add("ul-submenu")
     //Adicionando ul submenu ao li de primeiro nivel
     liMain.appendChild(ulSubmenu);
 
@@ -73,6 +66,7 @@ menus.forEach((menu, index) => {
 
       //Criando li para submenu
       const liSubmenu = document.createElement("li");
+      liSubmenu.classList.add("li-submenu")
       //Criando tag a para li do submenu
       const tagASub = document.createElement("a");
 
